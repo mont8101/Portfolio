@@ -4,10 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+    <div class="navbar">
+        <a class="active" href="/index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="/About.html"><i class="fa fa-fw fa-search"></i> About Me </a>
+        <a href="/Contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>My name is Ben Montgomery</h1>
+          <p>I'm a Developer, welcome to my vanilla Javascript page</p>
+          <button class="button"><span> Resume </span></button>
+        </div>
+      </div>
+      
+        <h2 style="text-align:center">My Experience</h2>
+        <div class="row">
+            <div class="containers flex-container">
+                <div class="column">
+                    <div class="card">
+                        <img src="/images/ustWide.png" class="ust">
+                        <div class="container school-container">
+                        <!-- <h2>University of St. Thomas</h2> -->
+                        <h2>School</h2>
+                        <p class="title">Bachelors of Science in Computer Science</p>
+                        <p>I achieved my degree in Computer Science from the University of St. Thomas in 2022</p>
+                        <p> Notable Classes </p>
+                        <ul>
+                            <li> Web Development </li>
+                            <li> Data Structures </li>
+                            <li> Object Oriented Design </li>
+                            <li> Information Security </li>
+                            <li> Algorithms </li>
+                        </ul>
+                        <p> Languages used:  </p>
+                        <ul> Javascript, Java, C, C++, Python, Linux Bash scripting, node.js, SQL</ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <div class="card">
+                        <img src="/images/fishbowl.png" class="ust" style="width:100%">
+                        <div class="container">
+                        <h2>Work Experience</h2>
+                        <p class="title">Associate Software Consultant - Since June 2022</p>
+                        <p>Fishbowl Solutions, St. Louis Park, MN</p>
+                        <p>Help create packaged software and develop custom solutions using the latest Oracle, Google, Mindbreeze, and PTC technologies</p>
+                        <p> What I have used while developing enterprise solutions </p>
+                        <ul> Javascript, Node.js, React.js, Oracle Content Management, Oracle Digital Assistant, Oracle Web Center Content</ul>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="column">
+                    <div class="card">
+                        <img src="/images/aboutme.jpg" alt="John" style="width:100%">
+                        <div class="container">
+                        <h2>This is me!</h2>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 	<script src="scripts/script.js"></script>
   </body>
 </html>
